@@ -1,4 +1,3 @@
-// Vercel Serverless Function: /api/flights.js
 export default async function handler(req, res) {
   const { origin = "LHR", destination = "KEF", currency = "usd" } = req.query;
 
